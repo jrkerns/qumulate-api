@@ -1,0 +1,50 @@
+{
+  "machines": [
+    {
+      "serial-number": "H191234",
+      "configuration": {
+        "machine-configuration-values": [
+          {
+            "field-code": "ENERGY",
+            "unit-code": "MEGA_ELECTRONVOLT",
+            "value": "20"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "device": {
+            "type": "UNKNOWN",
+            "serial-number": "123456789"
+          },
+          "performed-on-date": "24 Jul 2020 15:12:51 +0000",
+          "data-values": [
+            {
+              "test-raw-data-value-code": "DOSE",
+              "unit": "CENTIGRAY",
+              "value": "1.5"
+            }
+          ],
+          "custom-values": [
+            {
+              "key": "test-performed-by",
+              "value": "John Doe"
+            }
+          ],
+          "temperature": {
+            "units": {
+              "name": "CELSIUS"
+            },
+            "value": 21.0
+          },
+          "atmospheric-pressure": {
+            "units": {
+              "name": "MILLIMETERS_OF_MERCURY"
+            },
+            "value": 760.0
+          }
+        }
+      ]
+    }
+  ]
+}
